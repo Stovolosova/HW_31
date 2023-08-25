@@ -1,0 +1,128 @@
+.categories, .products, #product-info {
+    width: 30%;
+    padding: 20px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: $white;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        padding: 10px;
+        background-color: $grey;
+        margin-bottom: 10px;
+        cursor: pointer;
+        width: 100px;
+    }
+    
+    #product-name {
+        font-size: medium;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    li:hover {
+        background-color: #999;
+    }
+    
+    .buy-button {
+        margin-top: 20px;
+        padding: 10px 40px;
+        background-color: #424040;
+        color: $white;
+        border: none;
+        cursor: pointer;
+        display: none;
+    }
+    .buy-button:hover {
+        background-color: $red;
+    }
+    
+    .my-orders {
+        background-color: $white;
+        padding: 10px;
+        margin-bottom:  10px;
+        cursor: pointer;
+    }
+    
+    .my-orders li:hover {
+        background-color: #f1f1f1;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    #order-form {
+       display: none;
+    }
+    form {
+       min-width: 50%;
+        background-color: $grey;
+        padding: 20px;
+    }
+    
+    label {
+        font-size: 20px;
+    }
+    
+    input, textarea, select {
+        border-radius: 5px;
+        border: 1px solid #322e2e;
+    }
+    
+    select, #city {
+    padding: 3px;
+    }
+    
+    .submit {
+        padding: 10px 20px;
+        background-color: #333333b3;;
+        color: $white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .my-orders-button {
+        padding: 5px 20px;
+        background-color: #9d9999;
+        color: $white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .my-orders ul {
+     background-color: #eee;
+     padding: 10px;
+    }
+    
+    .my-orders li {
+        background-color: $white;
+        padding: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .my-orders li:hover {
+        background-color: #f1f1f1;
+    }
+    
+    .my-orders li button {
+        padding: 10px 20px !important;
+        background-color: #c4c1c1;
+        border: none !important;
+        cursor: pointer;
+        border-radius: 5px !important;
+        margin-bottom: 20px !important;
+        float: right !important;
+    }
